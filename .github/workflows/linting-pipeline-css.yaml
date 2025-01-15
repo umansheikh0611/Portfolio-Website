@@ -16,6 +16,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
+      - name: Init Stylelint
+        run: npm init stylelint
+
       - name: Install dependencies
         run: npm install stylelint stylelint-config-standard
 
