@@ -1,4 +1,4 @@
-name: Lint-CSS
+name: Lint CSS
 
 on:
   push:
