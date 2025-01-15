@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Install dependencies
-        run: npm install stylelint stylelint-config-standard
+        run: npm install create-stylelint
 
       - name: Lint CSS files
-        run: npx stylelint "**/*.css"
+        run: npx stylelint "**/*.css" --fix
